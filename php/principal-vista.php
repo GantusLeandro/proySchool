@@ -73,10 +73,10 @@
                           Lenguajes
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="php/clase-python-vista.php">Python</a></li>
-                          <li><a class="dropdown-item" href="php/clase-c++-vista.php">C++</a></li>
-                          <li><a class="dropdown-item" href="php/clase-java-vista.php">Java</a></li>
-                          <li><a class="dropdown-item" href="php/clase-php-vista.php">PHP</a></li>
+                          <li><a class="dropdown-item" href="php/clases-vista.php">Python</a></li>
+                          <li><a class="dropdown-item" href="php/clases-vista.php">C++</a></li>
+                          <li><a class="dropdown-item" href="php/clases-vista.php">Java</a></li>
+                          <li><a class="dropdown-item" href="php/clases-vista.php">PHP</a></li>
                         </ul>
                       </div>
 
