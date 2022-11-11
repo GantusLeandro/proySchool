@@ -59,7 +59,8 @@
 
                                     <!-- Button trigger modal -->
                                     <!-- Example single danger button -->
-                    
+                                    <?php include ('leng_ajax.php') ?>
+                        <h1><?php $php ?></h1>
                         <a href="#" class="btn space color-a" ><b>Cuestionarios</b></a>
                         <a href="cerrar.php" class="btn  space color-a"><b>Cerrar Sesion</b></a>
 

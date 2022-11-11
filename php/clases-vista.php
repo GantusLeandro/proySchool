@@ -88,7 +88,12 @@
   
     <center>
 
-      
+      <div class="fondo">   
+        <div class="recuadro">
+        
+        </div>
+            
+      </div>  
         
     </center>
   
