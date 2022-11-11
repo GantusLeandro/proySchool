@@ -1,0 +1,150 @@
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #5a5a5a;
+  }
+
+  nav{
+      background-color: #3a07c55e;
+      color: #5a5a5a;
+  }
+
+  .footer{
+      background-color: #3a07c55e;
+      width: 1903px;
+      height: 10rem;
+    color: #ffffff;
+    margin-bottom: -50px;
+  }
+
+  .fondo{
+      margin-top:10px;
+      padding-top:10px;
+      border-radius: 50px;
+      width: 1430px;
+      height: 1950px;
+    
+  }
+
+    /*                              CIDOGIO PARA VISTA DE CLASES C++                                 */
+
+    .recuadro{
+        margin-top:30px;
+        width: 1361px;
+        height: 765px;
+        background-color: #5a5a5a;
+    }
+
+    .recuadro2{
+        margin-top: 3rem;
+        border-radius: 30px;
+        width: 580px;
+        height: 1060px;
+        background-color: #ffffff;
+    }
+
+    .recuadro3{
+        border-radius: 30px;
+        width: 580px;
+        height: 1050px;
+        background-color: #5a5a5a;
+    }
+
+
+  /*                                CODIGO PARA ETIQUETAS "A"                                        */
+  .space{
+    margin-right: 10px;
+  }
+  
+  .mamonsita{
+    color: pink;
+  }
+  
+  .mamonsita:hover{
+    color: pink;
+  }
+  
+  .color-a{
+    color: #ffffff;
+  
+  }
+  
+  .color-a:hover{
+    color: pink;
+  }
+  
+  /*                                CODIGO SIGUIENTE PARA EL CARRUSEL                           */
+  
+  .carousel {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  
+  .carousel-item {
+    height: 61rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 61rem;
+  }
+  
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
