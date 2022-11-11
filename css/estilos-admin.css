@@ -11,6 +11,17 @@ body {
 
 /*                                        ESTILOS ADMINS                                                 */
 
+.list{
+  text-decoration: transparent;
+  color: white;
+  transition: 0.4s;
+}
+
+.list :hover{
+  color: rgb(161, 24, 161);
+  transition: 0.4s;
+}
+
 .table{
     width: 35rem;
     height: 0;
@@ -25,19 +36,23 @@ body {
   
   .mamonsita{
     color: pink;
+    transition: 0.4s;
   }
   
   .mamonsita:hover{
-    color: pink
+    color: pink;
+    transition: 0.4s;
   }
   
   .color-a{
     color: white;
+    transition: 0.4s;
   
   }
   
   .color-a:hover{
     color: pink;
+    transition: 0.4s;
   }
   
   /*                                CODIGO SIGUIENTE PARA EL CARRUSEL                           */

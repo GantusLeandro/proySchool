@@ -59,8 +59,7 @@
 
                                     <!-- Button trigger modal -->
                                     <!-- Example single danger button -->
-                                    <?php include ('leng_ajax.php') ?>
-                        <h1><?php $php ?></h1>
+                                   
                         <a href="#" class="btn space color-a" ><b>Cuestionarios</b></a>
                         <a href="cerrar.php" class="btn  space color-a"><b>Cerrar Sesion</b></a>
 
@@ -81,6 +80,7 @@
 <!------------------------------------------------------------------------>
 
 <center>
+    <h2 style="margin-top:2.3rem;">LISTA DE USUARIOS</h2>
     <table class="table table-bordered table-dark">
     <thead>
         <tr>
@@ -93,28 +93,28 @@
     </thead>
     <tbody>
         <tr>
+          
         <?php foreach($conexion ->query('SELECT * FROM login')as $row ) {?>
             <tr>
             <th> <?php echo $row ['id'] ?> </th>
             <th> <?php echo $row ['correo'] ?> </th>
             <th> <?php echo $row ['usuario'] ?> </th>
-            <td><a href="eliminar.php?id=<?php echo $row['id'] ?>">Eliminar</td>
-            <td><a href="php/user_act.php?id=<?php echo $row['id'] ?>">Modificar</td>
+            <td><a class="list" href="eliminar.php?id=<?php echo $row['id'] ?>">Eliminar</td>
+            <td><a class="list" href="php/user_act.php?id=<?php echo $row['id'] ?>">Modificar</td>
             </tr>
             <?php } ?>
         </tr>
     </tbody>
     </table>
 </center>
-
 <!-------------------------------------------------------------------------->
 
   <div class="footer">
     <hr class="featurette-divider">
    
      <footer class="container">
-        <p class="float-end"><a href="#">Vuelta al inicio</a></p>
-        <p>&copy; 2022–2022 kakao Korp. </p>
+        <p class="float-end"><a href="principal.php">Vuelta al inicio</a></p>
+        <p>&copy; 2022–2023 ProyectoSchool. </p>
       </footer>
     </main>
  

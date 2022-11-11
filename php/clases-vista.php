@@ -44,7 +44,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark " style="margin-top:-3rem; z-index: 10;">
       <div class="container-fluid">
         
-        <a class="navbar-brand color-a" href="principal.php">PROYECTO<b class="mamonsita">SCHOOL</b></a>
+        <a class="navbar-brand color-a" href="../principal.php">PROYECTO<b class="mamonsita">SCHOOL</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -69,7 +69,7 @@
                         </ul>
                       </div>
 
-                        <a href="cerrar.php" class="btn  space color-a"><b>Cerrar Sesion</b></a>
+                        <a href="../cerrar.php" class="btn  space color-a"><b>Cerrar Sesion</b></a>
 
                         <div>
                         <!-- Modal -->
@@ -88,12 +88,6 @@
   
     <center>
 
-      <div class="fondo">   
-        <div class="recuadro">
-        
-        </div>
-            
-      </div>  
         
     </center>
   
