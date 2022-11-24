@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="generator" content="Hugo 0.88.1">
-    <?php include("conexion.php") ?>
+    <?php include("../conexion.php") ?>
     <title>Programación ou yeah</title>
 
 
@@ -92,11 +92,17 @@
       <div class="recuadro">
       
       </div>
-      <div class="formulario">
-        <?php foreach($conexion ->query('SELECT * FROM preguntas')as $row ) {?>
-        <?php include("formularios-vista.php") ?>
-        <?php } ?>
-      </div>
+
+      <form action="../enviar-respuesta.php">
+        <div class="formulario">
+          <?php foreach($conexion ->query('SELECT * FROM preguntas')as $row ) {?>
+            <?php include("formularios-vista.php") ?>
+          <?php } ?>
+
+          <button class="btn btn-primary" type="submit">Entregar<label class="lnr lnr-chevron-right"></label></button>
+
+        </div>
+      </form>
         
     </center>
   

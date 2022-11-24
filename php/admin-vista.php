@@ -59,8 +59,8 @@
 
                                     <!-- Button trigger modal -->
                                     <!-- Example single danger button -->
-                        <a href="#" class="btn space color-a active" ><b>Lista Usuarios</b></a>
-                        <a href="cuestio_admin.php" class="btn space color-a" ><b>Cuestionarios</b></a>
+                        <a href="admin.php" class="btn space color-a active" ><b>Lista Usuarios</b></a>
+                        <a href="form.php" class="btn space color-a" ><b>Cuestionarios</b></a>
                         <a href="cerrar.php" class="btn  space color-a"><b>Cerrar Sesion</b></a>
 
                         <div>

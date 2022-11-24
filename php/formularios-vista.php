@@ -39,14 +39,21 @@
   <body>
 
   <div class="form-select" id="pregunta"  multiple name="servicio[]" >
+
+  <?php foreach($conexion ->query('SELECT * FROM preguntas')as $row ) {?>
+
+    <h5><?php echo $row ['pregunta'] ?></h5>
+
         <select>
             <option data-display="">Elija una opción</option>
-            <option value="1"><?php echo $row ['respuesta_1'] ?></option>
-            <option value="2"><?php echo $row ['respuesta_2'] ?></option>
-            <option value="3"><?php echo $row ['respuesta_3'] ?></option>
-            <option value="3"><?php echo $row ['respuesta_4'] ?></option>
+            <option value="1" name="r1"><?php echo $row ['respuesta_1'] ?></option>
+            <option value="2" name="r2"><?php echo $row ['respuesta_2'] ?></option>
+            <option value="3" name="r3"><?php echo $row ['respuesta_3'] ?></option>
+            <option value="4" name="r4"><?php echo $row ['respuesta_4'] ?></option>
  
         </select>
+
+    <?php } ?>
     </div>
 
       <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
