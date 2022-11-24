@@ -7,7 +7,7 @@
     <meta name="generator" content="Hugo 0.88.1">
         <!-- <link rel="stylesheet" href="css/Semantic-UI-CSS-master/semantic.css"> -->
     <?php include("conexion.php") ?>
-    <title>Programación</title>
+    <title>Lista Usuarios | Admin Mode</title>
 
 
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -59,8 +59,8 @@
 
                                     <!-- Button trigger modal -->
                                     <!-- Example single danger button -->
-                                   
-                        <a href="#" class="btn space color-a" ><b>Cuestionarios</b></a>
+                        <a href="#" class="btn space color-a active" ><b>Lista Usuarios</b></a>
+                        <a href="cuestio_admin.php" class="btn space color-a" ><b>Cuestionarios</b></a>
                         <a href="cerrar.php" class="btn  space color-a"><b>Cerrar Sesion</b></a>
 
                         <div>
@@ -87,8 +87,8 @@
         <th scope="col">ID</th>
         <th scope="col">Correo</th>
         <th scope="col">Usuario</th>
-        <th scope="col">Opción</th>
-        <th scope="col">Opción</th>
+        <th scope="col">Eliminar</th>
+        <th scope="col">Modificar</th>
         </tr>
     </thead>
     <tbody>

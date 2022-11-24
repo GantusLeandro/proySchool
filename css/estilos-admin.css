@@ -35,12 +35,12 @@ body {
   }
   
   .mamonsita{
-    color: pink;
+    color: rgb(161, 29, 117);
     transition: 0.4s;
   }
   
   .mamonsita:hover{
-    color: pink;
+    color: rgb(255, 192, 239);
     transition: 0.4s;
   }
   
@@ -49,11 +49,18 @@ body {
     transition: 0.4s;
   
   }
+
+  .active{
+      color: rgb(122, 53, 119);
+      transition: 0.4s;
+  }
   
   .color-a:hover{
-    color: pink;
+    color: rgb(255, 192, 252);
     transition: 0.4s;
   }
+
+  
   
   /*                                CODIGO SIGUIENTE PARA EL CARRUSEL                           */
   

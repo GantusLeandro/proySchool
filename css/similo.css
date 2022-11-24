@@ -6,6 +6,7 @@
 }
 
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(../assets/img/fondo\ 1.webp);
     background-position: center;
     background-attachment: fixed;
