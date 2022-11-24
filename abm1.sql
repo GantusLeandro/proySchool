@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-09-2022 a las 20:17:15
+-- Tiempo de generación: 24-11-2022 a las 18:37:51
 -- Versión del servidor: 10.1.35-MariaDB
 -- Versión de PHP: 7.2.9
 
@@ -62,6 +62,23 @@ INSERT INTO `login` (`id`, `correo`, `usuario`, `clave`) VALUES
 (1, 'agusfiasche@gmail.com', 'Agusfiasche', 'e940709e0e804822cc5e93e7d03c102a266f9e6f7ada5ff1ddea7ac85e358e1c0a387f310496736c64f246f5109293139660678f1dee0f14af3646fc9d5711df'),
 (2, 'pepe@gmail.com', 'pepe', 'd9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `preguntas`
+--
+
+CREATE TABLE `preguntas` (
+  `id_pregunta` int(11) NOT NULL,
+  `lenguaje` text NOT NULL,
+  `pregunta` text NOT NULL,
+  `respuesta_correcta` text NOT NULL,
+  `respuesta_1` text NOT NULL,
+  `respuesta_2` text NOT NULL,
+  `respuesta_3` text NOT NULL,
+  `respuesta_4` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Índices para tablas volcadas
 --
@@ -80,6 +97,12 @@ ALTER TABLE `login`
   ADD KEY `id` (`id`);
 
 --
+-- Indices de la tabla `preguntas`
+--
+ALTER TABLE `preguntas`
+  ADD PRIMARY KEY (`id_pregunta`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -94,6 +117,12 @@ ALTER TABLE `admins`
 --
 ALTER TABLE `login`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `preguntas`
+--
+ALTER TABLE `preguntas`
+  MODIFY `id_pregunta` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
